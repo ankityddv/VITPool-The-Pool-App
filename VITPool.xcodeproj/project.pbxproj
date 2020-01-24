@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,18 @@
 		3612678723DAC6790051F0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3612678523DAC6790051F0EB /* LaunchScreen.storyboard */; };
 		3612679223DAC6790051F0EB /* VITPoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612679123DAC6790051F0EB /* VITPoolTests.swift */; };
 		3612679D23DAC6790051F0EB /* VITPoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612679C23DAC6790051F0EB /* VITPoolUITests.swift */; };
+		361267AD23DAEC380051F0EB /* Designed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361267AC23DAEC380051F0EB /* Designed.swift */; };
+		361267AF23DAEF400051F0EB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361267AE23DAEF400051F0EB /* LogInViewController.swift */; };
+		361267B123DAF57F0051F0EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 361267B023DAF57F0051F0EB /* GoogleService-Info.plist */; };
+		361267CA23DB04330051F0EB /* CustomLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361267C923DB04330051F0EB /* CustomLoader.swift */; };
+		36F2022D23DB0E47005C730B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2022C23DB0E47005C730B /* SignUpViewController.swift */; };
+		36F2022F23DB1179005C730B /* AddDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2022E23DB1179005C730B /* AddDetailsViewController.swift */; };
+		36F2023423DB1E39005C730B /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F2023323DB1E39005C730B /* demo.gif */; };
+		36F2023623DB1E7C005C730B /* VerifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2023523DB1E7C005C730B /* VerifiedViewController.swift */; };
+		36F2023823DB1EB2005C730B /* Verified.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F2023723DB1EB2005C730B /* Verified.gif */; };
+		36F2023C23DB2427005C730B /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2023B23DB2427005C730B /* UIImage+Gif.swift */; };
+		36F2024323DB2C6F005C730B /* congrats.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F2024223DB2C6F005C730B /* congrats.gif */; };
+		36F2024623DB2D23005C730B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F2024523DB2D23005C730B /* HomeViewController.swift */; };
 		7894E1F8D28131768E8893DE /* Pods_VITPoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535ADDB306E76A92F8E4D8C9 /* Pods_VITPoolTests.framework */; };
 		936668CABF8487547AF8DEE7 /* Pods_VITPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C779F1590E780747EDD094 /* Pods_VITPool.framework */; };
 		DB3A462F3762A51BDDD027B3 /* Pods_VITPool_VITPoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD2A37340A2019A92CCB74 /* Pods_VITPool_VITPoolUITests.framework */; };
@@ -54,6 +66,18 @@
 		3612679823DAC6790051F0EB /* VITPoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITPoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3612679C23DAC6790051F0EB /* VITPoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITPoolUITests.swift; sourceTree = "<group>"; };
 		3612679E23DAC6790051F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361267AC23DAEC380051F0EB /* Designed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designed.swift; sourceTree = "<group>"; };
+		361267AE23DAEF400051F0EB /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		361267B023DAF57F0051F0EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		361267C923DB04330051F0EB /* CustomLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLoader.swift; sourceTree = "<group>"; };
+		36F2022C23DB0E47005C730B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		36F2022E23DB1179005C730B /* AddDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsViewController.swift; sourceTree = "<group>"; };
+		36F2023323DB1E39005C730B /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
+		36F2023523DB1E7C005C730B /* VerifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifiedViewController.swift; sourceTree = "<group>"; };
+		36F2023723DB1EB2005C730B /* Verified.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Verified.gif; sourceTree = "<group>"; };
+		36F2023B23DB2427005C730B /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		36F2024223DB2C6F005C730B /* congrats.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = congrats.gif; sourceTree = "<group>"; };
+		36F2024523DB2D23005C730B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		44C779F1590E780747EDD094 /* Pods_VITPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VITPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C1FF0B0E756B8F19A229A2 /* Pods-VITPool-VITPoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPool-VITPoolUITests.release.xcconfig"; path = "Target Support Files/Pods-VITPool-VITPoolUITests/Pods-VITPool-VITPoolUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4F2251F7E7C49BC98194A7F4 /* Pods-VITPool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPool.release.xcconfig"; path = "Target Support Files/Pods-VITPool/Pods-VITPool.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,7 +125,6 @@
 				F05660CA98725FB32A07271E /* Pods-VITPoolTests.debug.xcconfig */,
 				86BF83A514D5A79C68AE11A8 /* Pods-VITPoolTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +154,14 @@
 			isa = PBXGroup;
 			children = (
 				361267AA23DAC6AB0051F0EB /* Helpers */,
+				361267B223DAF5AB0051F0EB /* Custom  */,
 				361267AB23DAC6CC0051F0EB /* Views */,
-				3612677E23DAC6760051F0EB /* ViewController.swift */,
+				36F2023023DB11A5005C730B /* Auth */,
+				36F2024523DB2D23005C730B /* HomeViewController.swift */,
 				3612678323DAC6780051F0EB /* Assets.xcassets */,
 				3612678823DAC6790051F0EB /* Info.plist */,
+				361267B023DAF57F0051F0EB /* GoogleService-Info.plist */,
+				36F2024423DB2C80005C730B /* GIFs */,
 			);
 			path = VITPool;
 			sourceTree = "<group>";
@@ -173,6 +200,46 @@
 				3612678523DAC6790051F0EB /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		361267B223DAF5AB0051F0EB /* Custom  */ = {
+			isa = PBXGroup;
+			children = (
+				361267AC23DAEC380051F0EB /* Designed.swift */,
+				361267CD23DB06A40051F0EB /* GIF Progress Bar */,
+			);
+			path = "Custom ";
+			sourceTree = "<group>";
+		};
+		361267CD23DB06A40051F0EB /* GIF Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				36F2023B23DB2427005C730B /* UIImage+Gif.swift */,
+				361267C923DB04330051F0EB /* CustomLoader.swift */,
+			);
+			path = "GIF Progress Bar";
+			sourceTree = "<group>";
+		};
+		36F2023023DB11A5005C730B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3612677E23DAC6760051F0EB /* ViewController.swift */,
+				361267AE23DAEF400051F0EB /* LogInViewController.swift */,
+				36F2022C23DB0E47005C730B /* SignUpViewController.swift */,
+				36F2022E23DB1179005C730B /* AddDetailsViewController.swift */,
+				36F2023523DB1E7C005C730B /* VerifiedViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		36F2024423DB2C80005C730B /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				36F2024223DB2C6F005C730B /* congrats.gif */,
+				36F2023723DB1EB2005C730B /* Verified.gif */,
+				36F2023323DB1E39005C730B /* demo.gif */,
+			);
+			path = GIFs;
 			sourceTree = "<group>";
 		};
 		CE4BF62CE19DD6D17B91732E /* Frameworks */ = {
@@ -295,6 +362,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3612678723DAC6790051F0EB /* LaunchScreen.storyboard in Resources */,
+				361267B123DAF57F0051F0EB /* GoogleService-Info.plist in Resources */,
+				36F2024323DB2C6F005C730B /* congrats.gif in Resources */,
+				36F2023423DB1E39005C730B /* demo.gif in Resources */,
+				36F2023823DB1EB2005C730B /* Verified.gif in Resources */,
 				3612678423DAC6790051F0EB /* Assets.xcassets in Resources */,
 				3612678223DAC6770051F0EB /* Main.storyboard in Resources */,
 			);
@@ -424,9 +495,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361267AD23DAEC380051F0EB /* Designed.swift in Sources */,
 				3612677F23DAC6760051F0EB /* ViewController.swift in Sources */,
+				36F2022D23DB0E47005C730B /* SignUpViewController.swift in Sources */,
+				36F2023C23DB2427005C730B /* UIImage+Gif.swift in Sources */,
+				36F2022F23DB1179005C730B /* AddDetailsViewController.swift in Sources */,
 				3612677B23DAC6760051F0EB /* AppDelegate.swift in Sources */,
+				36F2023623DB1E7C005C730B /* VerifiedViewController.swift in Sources */,
+				36F2024623DB2D23005C730B /* HomeViewController.swift in Sources */,
+				361267AF23DAEF400051F0EB /* LogInViewController.swift in Sources */,
 				3612677D23DAC6760051F0EB /* SceneDelegate.swift in Sources */,
+				361267CA23DB04330051F0EB /* CustomLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
