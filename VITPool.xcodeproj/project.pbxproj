@@ -15,6 +15,9 @@
 		3612678723DAC6790051F0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3612678523DAC6790051F0EB /* LaunchScreen.storyboard */; };
 		3612679223DAC6790051F0EB /* VITPoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612679123DAC6790051F0EB /* VITPoolTests.swift */; };
 		3612679D23DAC6790051F0EB /* VITPoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3612679C23DAC6790051F0EB /* VITPoolUITests.swift */; };
+		7894E1F8D28131768E8893DE /* Pods_VITPoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535ADDB306E76A92F8E4D8C9 /* Pods_VITPoolTests.framework */; };
+		936668CABF8487547AF8DEE7 /* Pods_VITPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C779F1590E780747EDD094 /* Pods_VITPool.framework */; };
+		DB3A462F3762A51BDDD027B3 /* Pods_VITPool_VITPoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CD2A37340A2019A92CCB74 /* Pods_VITPool_VITPoolUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17CD2A37340A2019A92CCB74 /* Pods_VITPool_VITPoolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VITPool_VITPoolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		287AF327B316D66CC884BFAC /* Pods-VITPool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPool.debug.xcconfig"; path = "Target Support Files/Pods-VITPool/Pods-VITPool.debug.xcconfig"; sourceTree = "<group>"; };
 		3612677723DAC6760051F0EB /* VITPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VITPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3612677A23DAC6760051F0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3612677C23DAC6760051F0EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		3612679823DAC6790051F0EB /* VITPoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITPoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3612679C23DAC6790051F0EB /* VITPoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VITPoolUITests.swift; sourceTree = "<group>"; };
 		3612679E23DAC6790051F0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C779F1590E780747EDD094 /* Pods_VITPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VITPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C1FF0B0E756B8F19A229A2 /* Pods-VITPool-VITPoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPool-VITPoolUITests.release.xcconfig"; path = "Target Support Files/Pods-VITPool-VITPoolUITests/Pods-VITPool-VITPoolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F2251F7E7C49BC98194A7F4 /* Pods-VITPool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPool.release.xcconfig"; path = "Target Support Files/Pods-VITPool/Pods-VITPool.release.xcconfig"; sourceTree = "<group>"; };
+		535ADDB306E76A92F8E4D8C9 /* Pods_VITPoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VITPoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		658929876EA5B435FE394C37 /* Pods-VITPool-VITPoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPool-VITPoolUITests.debug.xcconfig"; path = "Target Support Files/Pods-VITPool-VITPoolUITests/Pods-VITPool-VITPoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86BF83A514D5A79C68AE11A8 /* Pods-VITPoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPoolTests.release.xcconfig"; path = "Target Support Files/Pods-VITPoolTests/Pods-VITPoolTests.release.xcconfig"; sourceTree = "<group>"; };
+		F05660CA98725FB32A07271E /* Pods-VITPoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VITPoolTests.debug.xcconfig"; path = "Target Support Files/Pods-VITPoolTests/Pods-VITPoolTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936668CABF8487547AF8DEE7 /* Pods_VITPool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7894E1F8D28131768E8893DE /* Pods_VITPoolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3A462F3762A51BDDD027B3 /* Pods_VITPool_VITPoolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181A028480B16F89736D361D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				287AF327B316D66CC884BFAC /* Pods-VITPool.debug.xcconfig */,
+				4F2251F7E7C49BC98194A7F4 /* Pods-VITPool.release.xcconfig */,
+				658929876EA5B435FE394C37 /* Pods-VITPool-VITPoolUITests.debug.xcconfig */,
+				47C1FF0B0E756B8F19A229A2 /* Pods-VITPool-VITPoolUITests.release.xcconfig */,
+				F05660CA98725FB32A07271E /* Pods-VITPoolTests.debug.xcconfig */,
+				86BF83A514D5A79C68AE11A8 /* Pods-VITPoolTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3612676E23DAC6760051F0EB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				3612679023DAC6790051F0EB /* VITPoolTests */,
 				3612679B23DAC6790051F0EB /* VITPoolUITests */,
 				3612677823DAC6760051F0EB /* Products */,
+				181A028480B16F89736D361D /* Pods */,
+				CE4BF62CE19DD6D17B91732E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +130,10 @@
 		3612677923DAC6760051F0EB /* VITPool */ = {
 			isa = PBXGroup;
 			children = (
-				3612677A23DAC6760051F0EB /* AppDelegate.swift */,
-				3612677C23DAC6760051F0EB /* SceneDelegate.swift */,
+				361267AA23DAC6AB0051F0EB /* Helpers */,
+				361267AB23DAC6CC0051F0EB /* Views */,
 				3612677E23DAC6760051F0EB /* ViewController.swift */,
-				3612678023DAC6770051F0EB /* Main.storyboard */,
 				3612678323DAC6780051F0EB /* Assets.xcassets */,
-				3612678523DAC6790051F0EB /* LaunchScreen.storyboard */,
 				3612678823DAC6790051F0EB /* Info.plist */,
 			);
 			path = VITPool;
@@ -128,6 +157,34 @@
 			path = VITPoolUITests;
 			sourceTree = "<group>";
 		};
+		361267AA23DAC6AB0051F0EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3612677A23DAC6760051F0EB /* AppDelegate.swift */,
+				3612677C23DAC6760051F0EB /* SceneDelegate.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		361267AB23DAC6CC0051F0EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3612678023DAC6770051F0EB /* Main.storyboard */,
+				3612678523DAC6790051F0EB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE4BF62CE19DD6D17B91732E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44C779F1590E780747EDD094 /* Pods_VITPool.framework */,
+				17CD2A37340A2019A92CCB74 /* Pods_VITPool_VITPoolUITests.framework */,
+				535ADDB306E76A92F8E4D8C9 /* Pods_VITPoolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361267A123DAC6790051F0EB /* Build configuration list for PBXNativeTarget "VITPool" */;
 			buildPhases = (
+				79E17A5ADA21C1681EB1F857 /* [CP] Check Pods Manifest.lock */,
 				3612677323DAC6760051F0EB /* Sources */,
 				3612677423DAC6760051F0EB /* Frameworks */,
 				3612677523DAC6760051F0EB /* Resources */,
+				76B682D5C721445AFFD2AD84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361267A423DAC6790051F0EB /* Build configuration list for PBXNativeTarget "VITPoolTests" */;
 			buildPhases = (
+				603653A525A6CD8751DDB97F /* [CP] Check Pods Manifest.lock */,
 				3612678923DAC6790051F0EB /* Sources */,
 				3612678A23DAC6790051F0EB /* Frameworks */,
 				3612678B23DAC6790051F0EB /* Resources */,
@@ -170,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361267A723DAC6790051F0EB /* Build configuration list for PBXNativeTarget "VITPoolUITests" */;
 			buildPhases = (
+				B7FC178B8F3B004E23DE67AB /* [CP] Check Pods Manifest.lock */,
 				3612679423DAC6790051F0EB /* Sources */,
 				3612679523DAC6790051F0EB /* Frameworks */,
 				3612679623DAC6790051F0EB /* Resources */,
+				D9780949B852B39527029E6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +315,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		603653A525A6CD8751DDB97F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VITPoolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B682D5C721445AFFD2AD84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VITPool/Pods-VITPool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VITPool/Pods-VITPool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VITPool/Pods-VITPool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E17A5ADA21C1681EB1F857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VITPool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FC178B8F3B004E23DE67AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VITPool-VITPoolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9780949B852B39527029E6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VITPool-VITPoolUITests/Pods-VITPool-VITPoolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VITPool-VITPoolUITests/Pods-VITPool-VITPoolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VITPool-VITPoolUITests/Pods-VITPool-VITPoolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3612677323DAC6760051F0EB /* Sources */ = {
@@ -432,6 +597,7 @@
 		};
 		361267A223DAC6790051F0EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287AF327B316D66CC884BFAC /* Pods-VITPool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +616,7 @@
 		};
 		361267A323DAC6790051F0EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2251F7E7C49BC98194A7F4 /* Pods-VITPool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +635,7 @@
 		};
 		361267A523DAC6790051F0EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05660CA98725FB32A07271E /* Pods-VITPoolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +658,7 @@
 		};
 		361267A623DAC6790051F0EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BF83A514D5A79C68AE11A8 /* Pods-VITPoolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +681,7 @@
 		};
 		361267A823DAC6790051F0EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658929876EA5B435FE394C37 /* Pods-VITPool-VITPoolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +702,7 @@
 		};
 		361267A923DAC6790051F0EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C1FF0B0E756B8F19A229A2 /* Pods-VITPool-VITPoolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

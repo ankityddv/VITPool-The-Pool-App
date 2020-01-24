@@ -1,0 +1,6 @@
+framework module Pods_VITPool_VITPoolUITests {
+  umbrella header "Pods-VITPool-VITPoolUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
